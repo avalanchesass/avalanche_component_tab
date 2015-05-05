@@ -1,6 +1,6 @@
-# avalanche: Object tab
+# avalanche: Component tab
 CSS tabs  
-https://github.com/avalanchesass/avalanche_object_tab
+https://github.com/avalanchesass/avalanche_component_tab
 
 ### Author
 Markus Oberlehner  
