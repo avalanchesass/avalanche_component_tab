@@ -1,5 +1,6 @@
 {
   "name": "avalanche: Component tab",
+  "version": "2.0.2",
   "homepage": "https://github.com/avalanchesass/avalanche_component_tab",
   "authors": [
     "Markus Oberlehner"
