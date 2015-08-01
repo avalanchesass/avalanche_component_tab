@@ -1,37 +1,33 @@
 /**
- * @name Tab
+ * Tab
+ *
  * @level X.X.
- * @code
- *   <div class="c-tab">
- *     <ul class="c-tab__tabs" role="tablist">
- *       <li class="c-tab__tab-title" role="presentational" >
- *         <a href="#tab1" class="c-tab__tab-link" role="tab" controls="tab1">Tab 1</a>
- *       </li>
- *       <li class="c-tab__tab-title" role="presentational" >
- *         <a href="#tab2" class="c-tab__tab-link" role="tab" controls="tab2">Tab 2</a>
- *       </li>
- *     </ul>
- *     <div class="c-tab__contents">
- *       <a name="tab2" id="tab2" class="c-tab__anchor"></a>
- *       <section role="tabpanel" class="c-tab__content">
- *         <h4>Tab 2</h4>
- *         <p>Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
- *       </section>
- *       <a name="tab1" id="tab1" class="c-tab__anchor"></a>
- *       <section role="tabpanel" class="c-tab__content">
- *         <h4>Tab 1</h4>
- *         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
- *       </section>
- *     </div>
+ * @markup
+ * <div class="c-tab">
+ *   <ul class="c-tab__tabs" role="tablist">
+ *     <li class="c-tab__tab-title" role="presentational" >
+ *       <a href="#tab1" class="c-tab__tab-link" role="tab" controls="tab1">Tab 1</a>
+ *     </li>
+ *     <li class="c-tab__tab-title" role="presentational" >
+ *       <a href="#tab2" class="c-tab__tab-link" role="tab" controls="tab2">Tab 2</a>
+ *     </li>
+ *   </ul>
+ *   <div class="c-tab__contents">
+ *     <a name="tab2" id="tab2" class="c-tab__anchor"></a>
+ *     <section role="tabpanel" class="c-tab__content">
+ *       <h4>Tab 2</h4>
+ *       <p>Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+ *     </section>
+ *     <a name="tab1" id="tab1" class="c-tab__anchor"></a>
+ *     <section role="tabpanel" class="c-tab__content">
+ *       <h4>Tab 1</h4>
+ *       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+ *     </section>
  *   </div>
+ * </div>
  */
-/**
- * Variables
- */
+// Variables
 $c-tab-namespace: 'c-tab' !default;
 $collectorium-namespace: $c-tab-namespace;
 
-/**
- * Import
- */
 @import 'vendor/collectorium/src/scss/collectorium';
